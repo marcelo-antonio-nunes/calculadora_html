@@ -10,7 +10,7 @@
 <body>
     <center>
 
-        <div><input class="display" type="text" name="display" id="display"></div>
+        <div><input class="display" maxlength="14" type="text" name="display" id="display"></div>
         <div class="keyboard">
             <div>
                 <button class="btn" id="7" value="7" onclick=write_display(value)>7</button>
@@ -32,7 +32,7 @@
             </div>
             <div>
                 <button class="btn" id="0" value="0" onclick=write_display(value)>0</button>
-                <button class="btn" id="," value="," onclick=write_display(value)>,</button>
+                <button class="btn" disabled id="," value="," onclick=write_display(value)>,</button>
                 <button class="btn" id="rst"  onclick=resete()>rst</button>
                 <button class="btn" id="+" value="+" onclick=calcular(value)>+</button>
             </div>
