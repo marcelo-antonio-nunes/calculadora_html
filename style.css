@@ -1,0 +1,44 @@
+.btn{
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+    background-color:#0a2e92;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    border-radius: 15px;
+}
+.btni{
+    width: 104px;
+    height: 50px;
+    padding: 1px;
+    background-color:#0a2e92;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    border-radius: 15px;
+}
+.display{
+    width: 213px;
+    text-align: end;
+    font-style: italic;
+    font-weight: bold;
+    color:blue;
+    text-shadow: 0 0 13px white;
+    background-color:darkgrey;
+    font-size: 26px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #000;
+}
+.keyboard{
+    width: 213px;
+    box-shadow: 0 0 3px #000;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+body{
+    background-color: darkgray;
+}
